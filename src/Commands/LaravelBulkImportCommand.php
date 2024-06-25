@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace HirenKeraliya\LaravelBulkImport\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelBulkImportCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-bulk-import';
 
     public $description = 'My command';
 

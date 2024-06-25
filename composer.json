@@ -1,10 +1,10 @@
 {
     "name": "hirenkeraliya/laravel-bulk-import",
-    "description": ":package_description",
+    "description": "Laravel Bulk Import is a comprehensive package that facilitates the import of large data sets from Excel and CSV files into your Laravel application",
     "keywords": [
-        ":vendor_name",
+        "Hiren Keraliya",
         "laravel",
-        ":package_slug"
+        "laravel-bulk-import"
     ],
     "homepage": "https://github.com/hirenkeraliya/laravel-bulk-import",
     "license": "MIT",
@@ -30,24 +30,23 @@
         "pestphp/pest-plugin-laravel": "^2.3",
         "phpstan/extension-installer": "^1.3",
         "phpstan/phpstan-deprecation-rules": "^1.1",
-        "phpstan/phpstan-phpunit": "^1.3",
-        "spatie/laravel-ray": "^1.35"
+        "phpstan/phpstan-phpunit": "^1.3"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "HirenKeraliya\\LaravelBulkImport\\": "src/",
+            "HirenKeraliya\\LaravelBulkImport\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "HirenKeraliya\\LaravelBulkImport\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-laravel-bulk-import --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -73,10 +72,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "HirenKeraliya\\LaravelBulkImport\\LaravelBulkImportServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelBulkImport": "HirenKeraliya\\LaravelBulkImport\\Facades\\LaravelBulkImport"
             }
         }
     },
