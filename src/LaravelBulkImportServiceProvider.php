@@ -2,9 +2,9 @@
 
 namespace HirenKeraliya\LaravelBulkImport;
 
+use HirenKeraliya\LaravelBulkImport\Commands\LaravelBulkImportCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use HirenKeraliya\LaravelBulkImport\Commands\LaravelBulkImportCommand;
 
 class LaravelBulkImportServiceProvider extends PackageServiceProvider
 {

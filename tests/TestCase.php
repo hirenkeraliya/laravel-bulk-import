@@ -2,9 +2,9 @@
 
 namespace HirenKeraliya\LaravelBulkImport\Tests;
 
+use HirenKeraliya\LaravelBulkImport\LaravelBulkImportServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use HirenKeraliya\LaravelBulkImport\LaravelBulkImportServiceProvider;
 
 class TestCase extends Orchestra
 {
